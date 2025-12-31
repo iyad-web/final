@@ -1,0 +1,101 @@
+.profil-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.profil-card {
+  width: 100%;
+  max-width: 760px;
+  background: var(--card-bg, #5a1717ff);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+}
+.profil-card h2 {
+  margin: 0 0 1rem;
+}
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+}
+.form-row label {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+.form-row input {
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.form-actions {
+  margin: 1rem 0;
+}
+.fav-input {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.fav-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+.fav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fav-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-top: 1px solid #f0f0f0;
+}
+.muted {
+  color: #888;
+}
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+}
+.btn-small {
+  padding: 0.3rem 0.5rem;
+  font-size: 0.9rem;
+}
+.btn-secondary {
+  background: transparent;
+  color: #111;
+  border: 1px solid #ddd;
+}
+
+/* styles for favorite star on movie cards */
+.fav-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.fav-button svg {
+  width: 18px;
+  height: 18px;
+  color: #999;
+}
+.fav-button.fav-active {
+  background: #111;
+}
+.fav-button.fav-active svg {
+  color: #ffd166;
+}

@@ -1,0 +1,47 @@
+.page-404-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  padding: 2rem;
+}
+.page-404-card {
+  text-align: center;
+  background: var(--card-bg, #fff);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+}
+.page-404-code {
+  font-size: 6rem;
+  margin: 0;
+  color: var(--accent, #ff6b6b);
+}
+.page-404-title {
+  font-size: 1.75rem;
+  margin: 0.5rem 0;
+}
+.page-404-desc {
+  color: #666;
+  margin-bottom: 1rem;
+}
+.page-404-actions {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
+.btn {
+  background: #111;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-secondary {
+  background: transparent;
+  color: #111;
+  border: 1px solid #ddd;
+}
